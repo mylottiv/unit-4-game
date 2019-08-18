@@ -1,0 +1,52 @@
+<html>
+    <title>Space Wars</title>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel='stylesheet' href='assets/css/style.css'>
+        <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class='container'>
+            <div id='staging-area' class='row'>
+                <div id='card-holder-0' class='col card card-holder'>
+                </div>
+                <div id='card-holder-1' class='col card card-holder'>
+                </div>
+                <div id='card-holder-2' class='col card card-holder'>
+                </div>
+                <div id='card-holder-3' class='col card card-holder'>
+                </div>
+                <div id='card-holder-4' class='col card card-holder'>
+                </div>
+                <div id='card-holder-5' class='col card card-holder'>
+                </div>
+            </div>
+            <div id='battle-area' class='row'>
+                <div id='card-holder-player' class='col card card-holder'>         
+                </div>
+                <div id='attack-area' class='col'>
+                    <div id='game-status' class='row'>
+                            <div class='col'>
+                                <p id='enemies-defeated'>Enemies Defeated: 0</p>
+                                <p id='win-loss'>Wins: 0 Losses: 0</p>
+                            </div>
+                    </div>
+                    <div id='attack-button' class='row'>
+                        <div class='col'>
+                            <button type='button' id='attack-button' class='col btn-block'>Attack!</button>
+                        </div>
+                    </div>
+                    <div id='combat-output' class='row'>
+                            <div class='col'>
+                                Choose your Avatar
+                            </div>
+                    </div>
+                </div>
+                <div id='card-holder-enemy' class='col card card-holder'>
+                </div>
+            </div>
+        </div>
+        <script src='assets/javascript/game.js'></script>
+    </body>
+</html>

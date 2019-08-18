@@ -1,0 +1,46 @@
+body{
+    background-image: url('../images/starry-space.jpg');
+    font-family: 'Share Tech Mono', monospace;
+}
+h4{
+    text-align: center;
+    font-weight: bolder;
+}
+h5{
+    text-align: center;
+    font-weight: bold;
+}
+.card-holder{
+    border: 3px solid teal; 
+}
+#staging-area{
+    margin-top: 25px;
+    height: 293px;
+}
+#battle-area{
+    margin-top: 25px;
+}
+#attack-area{
+    display: -ms-inline-flexbox;
+    border: 10px solid red;
+    background-color: white;
+}
+#game-status p{
+    font-weight: 600;
+}
+#combat-output{
+    flex-grow: 1;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+#attack-button{
+    flex-grow: 1;
+}
+#game-status{
+    text-align: center;
+}
+.character-img{
+    width: 125px;
+    height: 125px;
+}
